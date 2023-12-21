@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+
+}
+
+#canvas1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#audio1{
+    width: 30%;
+    display: block;
+    margin:50px auto ;
+}
+
+#fileUpload{
+    position: absolute;
+    z-index: 100;
+    color: white;
+    left: 10px;
+}
